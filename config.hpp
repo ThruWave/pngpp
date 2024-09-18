@@ -34,7 +34,7 @@
 #include <stdlib.h>
 
 // Endianness test
-#if defined(__GLIBC__)
+#if defined(__GLIBC__) || defined(_GNU_SOURCE)
 
 #include <endian.h>
 
